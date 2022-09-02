@@ -1,0 +1,339 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+/* variáveis */
+:root {
+    --dark: #000;
+    --light: #fff;
+    --light-blue: #4061D0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+/* Formatações genéricas***********************************/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*hover****************************************************/
+.logo-image:hover{
+    transform: scale(1.2);
+    transition: all .2s ease-in;
+}
+
+.menu-itens a:hover{
+    text-decoration: underline;
+    color: #f89daf;
+}
+
+.team-gallery img:hover{
+    transform: scale(1.2);
+    transition: all .2s ease-in;
+}
+
+.logo-image{
+    width: 5.5rem;
+}
+
+/* formatação do header**************************************/
+
+a{
+    text-decoration: none;
+    color: var(--light);
+    font-size: 1.6rem;
+    transition: .5s;
+}
+
+.menu-itens li {
+    margin: 0 2rem;
+}
+
+.menu-itens ul{
+    list-style: none;
+    display: flex;
+}
+
+.header-page{
+    padding: 1rem 2rem;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+
+
+/*container********************************************/
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*hero************************************************/
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0px 7.5%;
+    justify-content: space-between;
+}
+
+.hero-title{
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+    color: var(--dark);
+}
+
+.hero-text{
+    color: rgb(29, 29, 29);
+    text-align: left;
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.texts{
+    align-items: center;
+    width: 60%;
+}
+
+.image-hero{
+    transform: scaleX(-1);
+    display: flex;
+    width: 25rem;
+}
+
+.image-hero img{
+    min-width: 100%;
+    max-height: 100%;
+}
+
+/*O ROBÔ*****************************************************/
+
+.robot-page{
+    padding-bottom: 5%;
+    align-items: center;
+}
+
+.hero-titlepagerobot{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: 3rem;
+    padding: 7rem 0rem 2rem 0rem;
+    font-weight: 500;
+}
+
+.text-robotpage{
+    font-size: 2rem;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    line-height: 3.5rem;
+    align-items: center;
+    font-weight: 400;
+}
+
+.image-hero2 img{
+    width: 40%;
+    margin: 2rem 30% -3rem 30%;
+}
+
+/* página equipe*************************************************/
+
+
+.hero-titlepageteam{
+    padding-top: 7rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.text-team{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.team-gallery{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.team-gallery img{
+    border-radius: 100%;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    width: 14rem;
+}
+
+.team-pics{
+    margin: 2rem;
+}
+
+.team-pics h3{
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.team-desc{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 7rem;
+    font-size: 1.5rem;
+}
+
+/*galeria de imagens********************************************/
+
+.gallery-page{
+    padding-bottom: 12rem;
+}
+
+.gallery-title{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: 3rem;
+    padding: 7rem 0rem 4rem 0rem;
+    font-weight: 500;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gallery img{
+    height: 19rem;
+    margin-bottom: 3rem;
+}
+
+/*contato**********************************************/
+
+.contact-page{
+    align-items: center;
+    display: flex;
+    padding: 15%;
+    justify-content: space-between;
+}
+
+.contact-title{
+    font-size: 2.8rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text-contact{
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.contact-image img{
+    width: 18rem;
+}
+
+
+/* imgs de fundo */
+.bg-image-1 {
+    /* background: linear-gradient(180deg, #4061D0 0%, rgba(184, 163, 216, 0.58) 71.87%, rgba(227, 227, 227, 0) 100%); */
+    background-image: url(../images/Group\ 8.png);
+}
+
+.bg-image-2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #923CFF 89.37%);
+}
+
+.bg-image-3{
+    background: linear-gradient(360deg, rgba(215, 130, 255, 0) 0%, rgba(185, 99, 255, 0) 0.01%, rgba(0, 36, 156, 0.8) 50%, rgba(185, 99, 255, 0) 100%); 
+}
+
+.bg-image-4{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #c099ff 50%, #fa71ff 100%),
+    url(../images/Mask\ group\ \(2\).png);
+}
+
+/*responsive*/
+@media screen and (max-width: 610px){
+    .text-robotpage, .text-contact, .text-team{
+        font-size: 1.7rem;
+    }
+
+    .contact-image{
+        margin-top: 2rem;
+    }
+
+    .contact-page{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-title, .text-contact{
+        text-align: center;
+    }
+
+    .header-page {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .image-hero{
+        flex-wrap: wrap; 
+        width: 50%;
+        margin-top: 1.5rem;
+    }
+
+    .hero-text, .hero-title{
+        text-align: center;
+    }
+
+    .texts{
+        align-items: center;
+        width: 90%;
+        margin-top: 7rem;
+    }
+
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-hero2 img{
+        width: 70%;
+        margin: 2rem 15% 0rem 15%;
+    }
+}
