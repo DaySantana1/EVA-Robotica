@@ -1,1 +1,1 @@
-Esse é um projeto acadêmico
+https://robocup-eva.netlify.app
